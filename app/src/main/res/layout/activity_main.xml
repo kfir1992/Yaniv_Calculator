@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.nykproduction.yanivcalculator.MainActivity">
+
+    <ImageView
+        android:id="@+id/space"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/header_large"
+        app:layout_constraintBottom_toTopOf="@+id/newGame"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/newGame"
+        android:layout_width="0dp"
+        android:layout_height="110dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginStart="45dp"
+        android:background="@drawable/mainscreen_newgamebutton_selector"
+        app:layout_constraintBottom_toTopOf="@+id/resume"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/space" />
+
+    <ImageButton
+        android:id="@+id/resume"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/mainscreen_resumebutton_selector"
+        app:layout_constraintBottom_toTopOf="@+id/about"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/newGame" />
+
+    <ImageButton
+        android:id="@+id/about"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/mainscreen_aboutbutton_selector"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/resume"
+
+        />
+
+
+</android.support.constraint.ConstraintLayout>

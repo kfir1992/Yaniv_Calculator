@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/p_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="15dp">
+
+
+    <ToggleButton
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:textOn="" />
+
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/name"
+        app:layout_constraintStart_toStartOf="@id/p_layout"
+        app:layout_constraintTop_toBottomOf="@id/button" />
+
+
+    <TextView
+        android:id="@+id/win"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/win"
+        app:layout_constraintEnd_toEndOf="@id/button"
+        app:layout_constraintTop_toBottomOf="@id/button" />
+
+
+</android.support.constraint.ConstraintLayout>

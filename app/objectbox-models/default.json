@@ -1,0 +1,84 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "1:5816025658273893200",
+      "lastPropertyId": "8:4681373516723645761",
+      "name": "Player",
+      "properties": [
+        {
+          "id": "3:7543569732270815566",
+          "name": "id"
+        },
+        {
+          "id": "5:2583867909858726796",
+          "name": "name"
+        },
+        {
+          "id": "6:6552297579596065339",
+          "name": "win"
+        },
+        {
+          "id": "7:7243000901212713008",
+          "name": "playing"
+        },
+        {
+          "id": "8:4681373516723645761",
+          "name": "games_played"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "2:9105849368451855681",
+      "lastPropertyId": "6:3655005445804179463",
+      "name": "Player_Game",
+      "properties": [
+        {
+          "id": "1:2827287770326475151",
+          "name": "id"
+        },
+        {
+          "id": "2:7580738316905409991",
+          "name": "name"
+        },
+        {
+          "id": "3:5308826349325270935",
+          "name": "score"
+        },
+        {
+          "id": "4:7238062201017627204",
+          "name": "color"
+        },
+        {
+          "id": "5:5364445619268407953",
+          "name": "id_for_DB"
+        },
+        {
+          "id": "6:3655005445804179463",
+          "name": "player_crosur"
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "lastEntityId": "2:9105849368451855681",
+  "lastIndexId": "1:1432653106654961253",
+  "lastRelationId": "0:0",
+  "lastSequenceId": "0:0",
+  "modelVersion": 4,
+  "modelVersionParserMinimum": 4,
+  "retiredEntityUids": [],
+  "retiredIndexUids": [
+    1432653106654961253
+  ],
+  "retiredPropertyUids": [
+    4575318490768161350,
+    3334215582068677236,
+    3593038026444778284
+  ],
+  "retiredRelationUids": [],
+  "version": 1
+}

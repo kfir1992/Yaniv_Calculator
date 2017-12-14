@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="C:\Users\Kfir\Desktop\Yani_Calculator\app\src\main\assets"><file name="fonts/Rubik-Regular_0.ttf" path="C:\Users\Kfir\Desktop\Yani_Calculator\app\src\main\assets\fonts\Rubik-Regular_0.ttf"/></source><source path="C:\Users\Kfir\Desktop\Yani_Calculator\app\build\generated\assets\shaders\debug"/></dataSet><dataSet config="debug"><source path="C:\Users\Kfir\Desktop\Yani_Calculator\app\src\debug\assets"/></dataSet></merger>

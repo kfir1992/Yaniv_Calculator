@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/game_play_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.nykproduction.yanivcalculator.Game_Play"
+    tools:layout_editor_absoluteY="25dp">
+
+    <Button
+        android:id="@+id/enter_score_button"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/gamescreen_enterscorebutton_selector"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/progressbar" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/game_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/progressbar"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gameheaderline" />
+
+    <ImageView
+        android:id="@+id/crosur0"
+        android:layout_width="25dp"
+        android:layout_height="35dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@id/progressbar"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintLeft_toLeftOf="@id/progressbar"
+        app:layout_constraintRight_toRightOf="@id/progressbar"
+        app:srcCompat="@drawable/gamescreen_crusor1" />
+
+    <ImageView
+        android:id="@+id/crosur1"
+        android:layout_width="25dp"
+        android:layout_height="35dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@id/progressbar"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintLeft_toLeftOf="@id/progressbar"
+        app:layout_constraintRight_toRightOf="@id/progressbar"
+        app:srcCompat="@drawable/gamescreen_crusor2" />
+
+    <ImageView
+        android:id="@+id/crosur2"
+        android:layout_width="25dp"
+        android:layout_height="35dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@id/progressbar"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintLeft_toLeftOf="@id/progressbar"
+        app:layout_constraintRight_toRightOf="@id/progressbar"
+        app:srcCompat="@drawable/gamescreen_crusor3" />
+
+    <ImageView
+        android:id="@+id/crosur3"
+        android:layout_width="25dp"
+        android:layout_height="35dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@id/progressbar"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintLeft_toLeftOf="@id/progressbar"
+        app:layout_constraintRight_toRightOf="@id/progressbar"
+        app:srcCompat="@drawable/gamescreen_crusor4"
+
+        />
+
+    <ImageView
+        android:id="@+id/crosur4"
+        android:layout_width="25dp"
+        android:layout_height="35dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@id/progressbar"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintLeft_toLeftOf="@id/progressbar"
+        app:layout_constraintRight_toRightOf="@id/progressbar"
+        app:srcCompat="@drawable/gamescreen_crusor5" />
+
+    <ImageView
+        android:id="@+id/crosur5"
+        android:layout_width="25dp"
+        android:layout_height="35dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@id/progressbar"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintLeft_toLeftOf="@id/progressbar"
+        app:layout_constraintRight_toRightOf="@id/progressbar"
+        app:srcCompat="@drawable/gamescreen_crusor6" />
+
+    <ImageView
+        android:id="@+id/crosur6"
+        android:layout_width="25dp"
+        android:layout_height="35dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@id/progressbar"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintLeft_toLeftOf="@id/progressbar"
+        app:layout_constraintRight_toRightOf="@id/progressbar"
+        app:srcCompat="@drawable/gamescreen_crusor7" />
+
+
+    <ImageView
+        android:id="@+id/gameheaderline"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/gamescreen_header"
+        app:layout_constraintBottom_toTopOf="@+id/game_recyclerview"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gamelogo" />
+
+
+    <ImageView
+        android:id="@+id/gamelogo"
+        android:layout_width="90dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/header_small"
+        app:layout_constraintBottom_toTopOf="@+id/gameheaderline"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/progressbar"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/gamescreen_progress_bar"
+        app:layout_constraintBottom_toTopOf="@+id/enter_score_button"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/game_recyclerview" />
+
+    <ImageView
+        android:id="@+id/gameheaderline_player"
+        android:layout_width="90dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="50dp"
+        android:background="@drawable/gamescreen_headerplayer"
+        app:layout_constraintBottom_toTopOf="@id/game_recyclerview"
+        app:layout_constraintLeft_toLeftOf="@+id/gameheaderline"
+        app:layout_constraintRight_toLeftOf="@+id/gameheaderline_score" />
+
+    <ImageView
+        android:id="@+id/gameheaderline_score"
+        android:layout_width="78dp"
+        android:layout_height="36dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="50dp"
+        app:layout_constraintBottom_toTopOf="@id/game_recyclerview"
+        app:layout_constraintLeft_toRightOf="@+id/gameheaderline_player"
+        app:layout_constraintRight_toRightOf="@id/gameheaderline"
+        app:srcCompat="@drawable/gamescreen_headerscore" />
+</android.support.constraint.ConstraintLayout>

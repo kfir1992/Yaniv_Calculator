@@ -1,0 +1,23 @@
+#Internal package file, do not edit.
+#Thu Dec 14 11:09:08 IST 2017
+2.base=C\:\\Users\\Kfir\\Desktop\\Yani_Calculator\\app\\build\\intermediates\\assets\\debug
+0.path=lib/armeabi-v7a/libobjectbox.so
+2.baseType=DIRECTORY
+3.base=C\:\\Users\\Kfir\\Desktop\\Yani_Calculator\\app\\build\\intermediates\\transforms\\mergeJniLibs\\debug\\0
+2.set=ASSET
+1.path=lib/x86/libobjectbox.so
+4.base=C\:\\Users\\Kfir\\Desktop\\Yani_Calculator\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+count=5
+2.path=fonts/Rubik-Regular_0.ttf
+4.set=DEX
+3.path=lib/arm64-v8a/libobjectbox.so
+3.baseType=DIRECTORY
+1.set=NATIVE_RESOURCE
+4.path=classes.dex
+1.baseType=DIRECTORY
+0.base=C\:\\Users\\Kfir\\Desktop\\Yani_Calculator\\app\\build\\intermediates\\transforms\\mergeJniLibs\\debug\\0
+0.baseType=DIRECTORY
+3.set=NATIVE_RESOURCE
+1.base=C\:\\Users\\Kfir\\Desktop\\Yani_Calculator\\app\\build\\intermediates\\transforms\\mergeJniLibs\\debug\\0
+4.baseType=DIRECTORY
+0.set=NATIVE_RESOURCE
